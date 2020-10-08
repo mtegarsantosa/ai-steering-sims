@@ -1,0 +1,11 @@
+name: ai-steering-sims
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.8.0
+    - eventlet
+    - flask-socketio
+    - pip:
+        - opencv-python
+        - requests
